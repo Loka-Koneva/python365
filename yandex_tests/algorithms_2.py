@@ -80,3 +80,15 @@ def diff_brackets_sequence(test_str):
     return True
 
 print(diff_brackets_sequence(s3))
+
+"""
+Написать свой ассоциативный массив
+"""
+from collections import defaultdict
+
+str_test = 'Hello'
+
+d = defaultdict(int)
+for letter in str_test:
+    d[letter] += 1
+print(d)
