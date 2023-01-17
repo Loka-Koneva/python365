@@ -45,3 +45,4 @@ print(pt3.MAX_COORD)
 print(pt3.get_coords())
 
 # Метаклассы в API ORM Django https://proproprogs.ru/python_oop/python-metaklassy-api-orm-django
+# Метаклассы в ABCMeta(метакласс, позволяющий создавать абстрактные базовые классы) https://docs.python.org/3.5/library/abc.html
