@@ -1,4 +1,6 @@
 # Продолжаем повторять декораторы. Сейчас запишем декоратор, в кот. можно передать args
+# https://habr.com/ru/company/otus/blog/666016/
+# https://pythonworld.ru/osnovy/dekoratory.html
 
 def decorator_maker(decorator_arg1, decorator_arg2):
     print(f'Я создаю декоратор и я получил аргументы: '
