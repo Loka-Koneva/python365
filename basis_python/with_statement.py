@@ -5,7 +5,7 @@ from contextlib import contextmanager
 
 # Создаем тестовый класс Recource
 class Resource:
-    def __init(self):
+    def __init__(self):
         self.is_opened = False
 
     def open(self, *args):
