@@ -9,7 +9,7 @@ class Resource:
         self.is_opened = False
 
     def open(self, *args):
-        print(f'Resouce was opened with args: {args}')
+        print(f'Resource was opened with args: {args}')
         self.is_opened = True
 
     def close(self):
@@ -40,7 +40,7 @@ def resource_open(*args):
             resource.close()
 
 
-class ResourceWorker():
+class ResourceWorker:
     def __init__(self, *args):
         self.resource = None
         self.args = args

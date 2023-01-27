@@ -9,7 +9,8 @@ RANDOM_ANSWERS = [
     '-ДА НИКТО!',
 ]
 
-class CooCooIterator():
+
+class CooCooIterator:
     def __init__(self, num_iter, phrase='-Кто там?'):
         self.counter = 0
         self.num_iter = num_iter
